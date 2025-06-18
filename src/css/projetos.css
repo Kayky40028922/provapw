@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 1900px;
+}
+.btn1{
+    background-color: rgba(56, 161, 46, 0.795);
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+.btn1 b{
+    font-size: 25px;
+}
+.topo{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    background-color: rgb(37, 138, 28);
+    position: fixed;
+    top: 0;
+}
+.esquerda{
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.icone{
+    margin-top: 6px;
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+}
+.direita{
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    padding-left: 265px;
+}
+.direita a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.topo .direita a p{
+    margin-top: 40px;
+    margin-left: 150px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.todo{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.projeto1 .titulo1{
+    margin-top: 200px;
+}
+.projeto1 .img1{
+    background-image: url(../img/compostagem.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 330px;
+    margin-top: 30px;
+}
+.projeto1{
+    display: flex;
+    align-items: center;
+}
+.descricao1{
+    margin-top: 300px;
+}
+.descricao1 p{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.titulo1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.projeto2 .img2{
+    background-image: url(../img/turismo.webp);
+    background-size: cover;
+    width: 500px;
+    height: 330px;
+    margin-top: 30px;
+}
+.projeto2{
+    display: flex;
+    align-items: center;
+}
+.descricao2{
+    margin-top: 100px;
+}
+.descricao2 p{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.titulo2{
+    display: flex;
+    flex-direction: column;
+}
+.projeto3 .img3{
+    background-image: url(../img/educacao.jpg);
+    width: 500px;
+    height: 330px;
+    margin-top: 30px;
+}
+.titulo3{
+    display: flex;
+    flex-direction: column;
+}
+.projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    margin-left: 100px;
+}
+.projetos b{
+    font-size: 30px;
+    text-shadow: rgba(7, 7, 7, 0.452) 3px 3px 3px;
+}
+.projeto3{
+    display: flex;
+}
+.descricao3{
+    margin-top: 200px;
+}
+.descricao3 p{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}

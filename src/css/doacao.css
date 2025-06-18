@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topo{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    background-color: rgb(37, 138, 28);
+    position: fixed;
+    top: 0;
+}
+.btn1{
+    background-color: rgba(56, 161, 46, 0.795);
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+.btn1 b{
+    font-size: 25px;
+}
+.esquerda{
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.icone{
+    margin-top: 6px;
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+}
+.direita{
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    padding-left: 265px;
+}
+.direita a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.topo .direita a p{
+    margin-top: 40px;
+    margin-left: 150px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.todo{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.doar{
+    margin-top: 150px;
+}
+.titulo{
+    margin-left: 40%;
+    font-size: 50px;
+}
+.quadro{
+    margin-top: 70px;
+    width: 400px;
+    height: 550px;
+    background-image: url(../img/doar.png);
+    background-size: cover;
+    margin-left: 200px;
+    border: solid black 1px;
+}
+.acao{
+    display: flex;
+}
+.texto{
+    margin-left: 20px;
+    margin-top: 150px;
+}
+.texto p{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.texto2{
+    margin-top: 20px;
+}
+.inputs{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.inputs input{
+    width: 300px;
+    height: 30px;
+}
+.input1{
+    display: flex;
+    gap: 159px;
+}
+.input2{
+    display: flex;
+    gap: 151px;
+}
+.input3{
+    display: flex;
+    gap: 163px;
+}
+.input4{
+    display: flex;
+    gap: 61px;
+}
+.input5{
+    display: flex;
+    gap: 26px;
+}
+.btn2{
+    width: 400px;
+    height: 60px;
+    margin-left: 75px;
+    margin-top: 45px;
+    border-radius: 90px;
+    border: 0;
+    background-color: rgba(56, 161, 46, 0.795);
+}
+.btn2 b{
+    font-size: larger;
+}
+.btn2:hover{
+    cursor: pointer;
+}
