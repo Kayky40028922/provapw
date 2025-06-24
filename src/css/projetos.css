@@ -144,5 +144,36 @@ body{
     font-size: 25px;
     margin-left: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+}
+@media(max-width: 1440px) {
+    body{
+        background-color: aqua;
+        width: 100%;
+        height: 100%;
+    }
+    .topo{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        background-color: rgb(37, 138, 28);
+        position: fixed;
+        margin-top: 0;
+    }
+    .esquerda{
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    }
+    .direita a{
+    text-decoration: none;
+    color: #ffffff;
+    }
+    .direita{
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    padding-left: 150px;
+    }
 }
