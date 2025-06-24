@@ -70,7 +70,7 @@
 .introducao{
     background-image: url(../img/arvore2.webp);
     background-size: cover;
-    width: 1200px;
+    width: 100vw;
     height: 100vh;
 }
 input{
@@ -391,4 +391,12 @@ input{
     margin-top: 40px;
     margin-bottom: 20px;
     text-shadow: black 3px 3px 3px;
+}
+@media(max-width: 1280px) {
+    .introducao{
+    background-image: url(../img/arvore2.webp);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
 }
