@@ -147,9 +147,9 @@ body{
 }
 @media(max-width: 1440px) {
     body{
-        background-color: aqua;
+        background-color: #ffffff;
         width: 100%;
-        height: 100%;
+        height: 1900px;
     }
     .topo{
         width: 100%;
@@ -161,7 +161,7 @@ body{
     }
     .esquerda{
     height: 100%;
-    width: 50vw;
+    width: 40%;
     display: flex;
     align-items: center;
     margin-left: 30px;
@@ -174,6 +174,6 @@ body{
     height: 100%;
     width: 60vw;
     display: flex;
-    padding-left: 150px;
+    padding-left: 0px;
     }
 }

@@ -133,3 +133,44 @@
 .btn2:hover{
     cursor: pointer;
 }
+@media(max-width: 1440px) {
+    body{
+        background-color: #ffffff;
+        width: 100%;
+        height: 800px;
+    }
+    .topo{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        background-color: rgb(37, 138, 28);
+        position: fixed;
+        margin-top: 0;
+    }
+    .esquerda{
+    height: 100%;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    }
+    .direita a{
+    text-decoration: none;
+    color: #ffffff;
+    }
+    .direita{
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    padding-left: 0px;
+    }
+    .quadro{
+    margin-top: 70px;
+    width: 400px;
+    height: 550px;
+    background-image: url(../img/doar.png);
+    background-size: cover;
+    margin-left: 65px;
+    border: solid black 1px;
+    }
+}

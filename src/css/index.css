@@ -407,7 +407,7 @@ input{
     }
     .esquerda{
     height: 100%;
-    width: 50vw;
+    width: 40vw;
     display: flex;
     align-items: center;
     margin-left: 30px;
@@ -420,7 +420,7 @@ input{
     height: 100%;
     width: 60vw;
     display: flex;
-    padding-left: 150px;
+    padding-left: 10px;
     }
     .opacidade{
     background-color: rgba(0, 0, 0, 0.658);
@@ -449,7 +449,7 @@ input{
     height: 1000px;
     display: flex;
     border-radius: 45px;
-    padding-left: 50px;
+    padding-left: 100px;
     }
     .partefinal{
     background-color: rgb(37, 138, 28);
@@ -457,5 +457,60 @@ input{
     width: 100%;
     display: flex;
     flex-direction: column;
+    }
+    .missao b{
+    color: rgb(37, 138, 28);
+    font-size: 70px;
+    text-shadow: black 3px 3px 3px;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .missao p{
+    color: #ffff;
+    font-size: 25px;
+    text-shadow: black 3px 3px 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .texto1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .texto1 b{
+    font-size: 50px;
+    margin-bottom: 25px;
+    text-shadow: rgb(37, 138, 28) 2px 2px 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .texto1 p{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .noticia1{
+    background-color: rgb(238, 238, 238);
+    width: 1000px;
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 22px;
+    display: flex;
+    }
+    .noticia2{
+    background-color: rgb(238, 238, 238);
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 22px;
+    display: flex;
+    }
+    .noticia3{
+    background-color: rgb(238, 238, 238);
+    width: 1000px;
+    height: 300px;
+    border-radius: 22px;
+    display: flex;
     }
 }
