@@ -179,12 +179,12 @@ body{
 }
 @media(max-width: 720px){
     body{
-    width: 100%;
+    width: 100vw;
     height: 1900px;
     }
     
    .topo{
-    width: 100%;
+    width: 100vw;
     height: 100px;
     display: flex;
     background-color: rgb(37, 138, 28);
