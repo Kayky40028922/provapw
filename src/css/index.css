@@ -544,7 +544,7 @@ input{
         border-radius: 45px;
         padding-left: 30px;
         margin-bottom: 500px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .parte1{
     display: flex;
@@ -705,6 +705,13 @@ input{
     width: 200%;
     display: flex;
     flex-direction: column;
-
     }
-        }
+    .titulo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    margin-left: 33px;
+    }
+}
