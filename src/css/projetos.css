@@ -182,4 +182,28 @@ body{
     width: 100%;
     height: 1900px;
     }
+    
+   .topo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: rgb(37, 138, 28);
+    position: fixed;
+    }
+    .direita{
+    height: 100%;
+    width: 60%;
+        display: flex;
+        padding-left: 0px;
+    }
+    .direita a{
+    text-decoration: none;
+    color: #ffffff;
+    }
+    .esquerda{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    }
 }
