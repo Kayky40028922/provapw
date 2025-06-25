@@ -184,7 +184,7 @@ body{
     }
     
    .topo{
-    width: 100vw;
+    width: 200%;
     height: 100px;
     display: flex;
     background-color: rgb(37, 138, 28);
